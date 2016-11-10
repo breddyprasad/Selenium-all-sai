@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;QEdge-8thBatch/src/com.qedge.selenium.common&apos;&#x0D;&#x0A;- Original project: &apos;QEdge-7thBatch&apos;&#x0D;&#x0A;- Destination element: &apos;QEdge-8thBatch/src/com.qedge.selenium.common&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     com.qedge.selenium.GridFirefox.java&#x0D;&#x0A;     com.qedge.selenium.GridIE.java" description="Copy compilation units" destination="=QEdge-8thBatch/src&lt;com.qedge.selenium.common" element1="/src&lt;com.qedge.selenium{GridFirefox.java" element2="/src&lt;com.qedge.selenium{GridIE.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1467346045985" units="2" version="1.0"/>
+</session>

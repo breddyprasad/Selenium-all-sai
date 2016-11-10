@@ -1,0 +1,37 @@
+package first;
+
+public class Methods {
+
+	//public static void main(String[] args) {
+		//String s="a";
+		//String s="z";
+		//for(s="a",s>0,s++);
+		
+		//System.out.println(result);
+		//Methods addind =new Methods();
+		
+		//adding.a();
+		
+	/*
+	 * public void NonReturnType(String name, int AccountNumber, String
+	 * BankName){
+	 * 
+	 * System.out.println("This is my name: " + name); System.out.println(
+	 * "This is my RollNumber: " + AccountNumber); System.out.println(
+	 * "I have my account in : " + BankName); }
+	 * 
+	 */
+	public int ReturnType(int returnValue) {
+
+		// System.out.println("This is a return type method");
+
+		return returnValue;
+	}
+
+	public TypesofMethodsWithArguments(String url) {
+
+		System.out.println("Launching the browser with URL: " + url);
+		
+	}
+
+}

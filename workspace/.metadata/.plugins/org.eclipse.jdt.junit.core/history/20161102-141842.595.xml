@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner (1)" project="Project7" tests="5" started="5" failures="0" errors="4" ignored="3">
+  <testsuite name="CucumberTest.TestRunner" time="0.084">
+    <testsuite name="Feature: verifying the cucumber" time="0.084">
+      <testsuite name="Scenario: login scenario" time="0.0" incomplete="true">
+        <error>java.io.IOException: Input is invalid JSON; does not start with '{' or '[', c=-1&#13;
+	at com.cedarsoftware.util.io.JsonReader.readJsonObject(JsonReader.java:1494)&#13;
+	at com.cedarsoftware.util.io.JsonReader.readObject(JsonReader.java:707)&#13;
+	at com.github.mkolisnyk.cucumber.reporting.CucumberResultsOverview.readFileContent(CucumberResultsOverview.java:76)&#13;
+	at com.github.mkolisnyk.cucumber.reporting.CucumberResultsOverview.executeFeaturesOverviewReport(CucumberResultsOverview.java:153)&#13;
+	at StepDefinitions.Login.testGiven(Login.java:26)&#13;
+	at ✽.Given Browser url and credentials(login.feature:26)&#13;
+&#13;
+</error>
+        <testcase name="Given Browser url and credentials" classname="Scenario: login scenario" time="0.0">
+          <error>java.io.IOException: Input is invalid JSON; does not start with '{' or '[', c=-1&#13;
+	at com.cedarsoftware.util.io.JsonReader.readJsonObject(JsonReader.java:1494)&#13;
+	at com.cedarsoftware.util.io.JsonReader.readObject(JsonReader.java:707)&#13;
+	at com.github.mkolisnyk.cucumber.reporting.CucumberResultsOverview.readFileContent(CucumberResultsOverview.java:76)&#13;
+	at com.github.mkolisnyk.cucumber.reporting.CucumberResultsOverview.executeFeaturesOverviewReport(CucumberResultsOverview.java:153)&#13;
+	at StepDefinitions.Login.testGiven(Login.java:26)&#13;
+	at ✽.Given Browser url and credentials(login.feature:26)&#13;
+&#13;
+</error>
+        </testcase>
+        <testcase name="When we enter credentials" classname="Scenario: login scenario" time="0.0" ignored="true"/>
+        <testcase name="Then login should be successful" classname="Scenario: login scenario" time="0.0" ignored="true"/>
+      </testsuite>
+      <testsuite name="Scenario: logout scenario" time="0.0" incomplete="true">
+        <error>java.lang.NullPointerException&#13;
+	at StepDefinitions.Login.testWhen2(Login.java:46)&#13;
+	at ✽.When we clicked on logout button(login.feature:35)&#13;
+&#13;
+</error>
+        <testcase name="When we clicked on logout button" classname="Scenario: logout scenario" time="0.0">
+          <error>java.lang.NullPointerException&#13;
+	at StepDefinitions.Login.testWhen2(Login.java:46)&#13;
+	at ✽.When we clicked on logout button(login.feature:35)&#13;
+&#13;
+</error>
+        </testcase>
+        <testcase name="Then logout should be successful" classname="Scenario: logout scenario" time="0.075" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

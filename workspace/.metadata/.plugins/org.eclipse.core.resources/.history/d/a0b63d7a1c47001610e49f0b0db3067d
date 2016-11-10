@@ -1,0 +1,16 @@
+package com.companyname.promame;
+
+class Sample{
+	public static void read(){
+		System.out.println("This method is used to read");
+	}
+	
+	public static void write(){
+		
+	}
+}
+
+
+public class MethodOverRiding {
+
+}

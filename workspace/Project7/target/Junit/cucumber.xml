@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="7.988703">
+<testcase classname="verifying the cucumber" name="login scenario" time="7.985611">
+<failure message="java.io.IOException: Input is invalid JSON; does not start with '{' or '[', c=-1&#13;&#10;&#9;at com.cedarsoftware.util.io.JsonReader.readJsonObject(JsonReader.java:1494)&#13;&#10;&#9;at com.cedarsoftware.util.io.JsonReader.readObject(JsonReader.java:707)&#13;&#10;&#9;at com.github.mkolisnyk.cucumber.reporting.CucumberResultsOverview.readFileContent(CucumberResultsOverview.java:76)&#13;&#10;&#9;at com.github.mkolisnyk.cucumber.reporting.CucumberResultsOverview.executeFeaturesOverviewReport(CucumberResultsOverview.java:153)&#13;&#10;&#9;at StepDefinitions.Login.testGiven(Login.java:26)&#13;&#10;&#9;at ✽.Given Browser url and credentials(login.feature:26)&#13;&#10;"><![CDATA[Given Browser url and credentials...........................................failed
+When we enter credentials...................................................skipped
+Then login should be successful.............................................skipped
+
+StackTrace:
+java.io.IOException: Input is invalid JSON; does not start with '{' or '[', c=-1
+	at com.cedarsoftware.util.io.JsonReader.readJsonObject(JsonReader.java:1494)
+	at com.cedarsoftware.util.io.JsonReader.readObject(JsonReader.java:707)
+	at com.github.mkolisnyk.cucumber.reporting.CucumberResultsOverview.readFileContent(CucumberResultsOverview.java:76)
+	at com.github.mkolisnyk.cucumber.reporting.CucumberResultsOverview.executeFeaturesOverviewReport(CucumberResultsOverview.java:153)
+	at StepDefinitions.Login.testGiven(Login.java:26)
+	at ✽.Given Browser url and credentials(login.feature:26)
+]]></failure>
+</testcase>
+<testcase classname="verifying the cucumber" name="logout scenario" time="0.003092">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at StepDefinitions.Login.testWhen2(Login.java:46)&#13;&#10;&#9;at ✽.When we clicked on logout button(login.feature:35)&#13;&#10;"><![CDATA[When we clicked on logout button............................................failed
+Then logout should be successful............................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at StepDefinitions.Login.testWhen2(Login.java:46)
+	at ✽.When we clicked on logout button(login.feature:35)
+]]></failure>
+</testcase>
+</testsuite>

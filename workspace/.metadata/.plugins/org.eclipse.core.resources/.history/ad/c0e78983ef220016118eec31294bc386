@@ -1,0 +1,47 @@
+package com.qedge.selenium;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
+
+import org.apache.poi.EncryptedDocumentException;
+import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import com.qedge.excellib.ReadExcel;
+
+public class ReadPropeties {
+public static String elementValue(String keyValuePair) throws IOException {
+	//File fil=new File("object.properties");
+	FileInputStream fis=new FileInputStream("object.properties");
+	Properties pro=new Properties();
+	pro.load(fis);
+	String userName=pro.getProperty(keyValuePair);
+	System.out.println(userName);
+	String userName1[]=userName.split(":");
+	String elementProperty=userName1[0];
+	String elementValue=userName1[1];
+	/*System.out.println(elementProperty);
+	System.out.println(elementValue);*/
+	return elementValue;
+}
+
+public static void main(String[] args) throws IOException, EncryptedDocumentException, InvalidFormatException {
+	/*String Value=elementValue("Login_Username");
+	System.out.println(Value);*/
+	
+	WebDriver driver=new FirefoxDriver();
+	driver.get("http://demo.actitime.com");
+	ReadExcel r1=new ReadExcel();
+	String data=r1.indCellData("TestData", 1, 1);
+	driver.findElement(By.id(elementValue("Login_Username"))).sendKeys(data);
+	driver.findElement(By.name(elementValue("Login_Password"))).sendKeys("manager");
+	driver.findElement(By.linkText(elementValue("Login_LoginButton"))).click();
+	
+}
+}

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Move &apos;Actitime.Feature&apos; to &apos;Feature&apos;" description="Move &apos;Actitime.Feature&apos; to &apos;Feature&apos;" destination="Feature" element1="Actitime.Feature" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1463371467675" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;LearningMaven/Feature/Actitime.Feature&apos; to &apos;Actitime.feature&apos;" description="Rename resource &apos;Actitime.Feature&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Feature/Actitime.Feature" name="Actitime.feature" stamp="1463371923446" updateReferences="true"/>
+</session>

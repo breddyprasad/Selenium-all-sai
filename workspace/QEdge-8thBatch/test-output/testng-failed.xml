@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.qedge.selenium.testng.VerifyingAllLinks">
+        <methods>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.qedge.selenium.testng.VerifyingAllLinks -->
+      <class name="com.qedge.selenium.testng.MultipleWindows">
+        <methods>
+          <include name="handlingMultipleWindows"/>
+        </methods>
+      </class> <!-- com.qedge.selenium.testng.MultipleWindows -->
+      <class name="com.qedge.selenium.testng.BasicsofTestNG3">
+        <methods>
+          <include name="login"/>
+          <include name="quitBrowser"/>
+          <include name="logout"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.qedge.selenium.testng.BasicsofTestNG3 -->
+      <class name="com.qedge.selenium.testng.MouseandKeyboardActions">
+        <methods>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.qedge.selenium.testng.MouseandKeyboardActions -->
+      <class name="com.qedge.selenium.testng.BasicsofTestNG1">
+        <methods>
+          <include name="afterClass"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.qedge.selenium.testng.BasicsofTestNG1 -->
+      <class name="com.qedge.selenium.testng.BasicsofTestNG2">
+        <methods>
+          <include name="login"/>
+          <include name="quitBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- com.qedge.selenium.testng.BasicsofTestNG2 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

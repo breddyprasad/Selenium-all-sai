@@ -1,0 +1,13 @@
+package first;
+
+public class Samplemethods {
+
+
+		public void method_1(String name, int AccountNumber) {
+			
+			System.out.println("This is my name: " + name);
+			System.out.println("This is my AcNumber: " + AccountNumber);
+
+	}
+
+}

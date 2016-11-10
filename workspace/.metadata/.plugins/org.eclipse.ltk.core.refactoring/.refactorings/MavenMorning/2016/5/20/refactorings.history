@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;WebGeneric.java&apos; to &apos;LearningMaven/src/test/java/com.selenium.framework&apos;&#x0D;&#x0A;- Original project: &apos;MavenMorning&apos;&#x0D;&#x0A;- Destination element: &apos;LearningMaven/src/test/java/com.selenium.framework&apos;&#x0D;&#x0A;- Original element: &apos;com.qedge.seleniu.WebGeneric.java&apos;" description="Copy compilation unit" destination="=LearningMaven/src\/test\/java&lt;com.selenium.framework" element1="/src\/test\/java&lt;com.qedge.seleniu{WebGeneric.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1463026856511" units="1" version="1.0"/>
+</session>

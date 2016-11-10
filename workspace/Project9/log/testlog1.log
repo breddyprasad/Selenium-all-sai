@@ -1,0 +1,19 @@
+2016-07-21 08:39:29,240 [main] INFO projectReport - Browser launched
+2016-07-21 08:39:49,334 [main] INFO projectReport - Url passed
+2016-07-22 08:02:57,421 [main] INFO projectReport - enter data admin
+2016-07-22 08:07:00,285 [main] INFO projectReport - Locator not found id
+2016-07-22 08:07:00,432 [main] INFO projectReport - Locator not found id
+2016-07-22 08:07:00,595 [main] INFO projectReport - Locator not found id
+2016-07-22 08:09:44,568 [main] INFO projectReport - enter data admin
+2016-07-22 08:16:37,842 [main] INFO projectReport - chromeBrowser is lanched
+2016-07-22 08:16:47,397 [main] INFO projectReport - enter data admin
+2016-07-22 08:23:14,439 [main] INFO projectReport - chromeBrowser is lanched
+2016-07-22 08:23:14,740 [main] INFO projectReport - Browser is maximised
+2016-07-22 08:23:14,749 [main] INFO projectReport - implicit wait is maintained
+2016-07-22 08:23:15,700 [main] INFO projectReport - delete all cookies
+2016-07-22 08:23:22,952 [main] INFO projectReport - enter data admin
+2016-07-22 08:28:05,867 [main] INFO projectReport - chromeBrowser is lanched
+2016-07-22 08:28:06,043 [main] INFO projectReport - Browser is maximised
+2016-07-22 08:28:06,051 [main] INFO projectReport - implicit wait is maintained
+2016-07-22 08:28:07,620 [main] INFO projectReport - delete all cookies
+2016-07-22 08:28:15,963 [main] INFO projectReport - enter data admin
